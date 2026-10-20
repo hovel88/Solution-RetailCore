@@ -1,0 +1,38 @@
+@startmindmap
+<style>
+mindmapDiagram {
+    .green {
+        BackgroundColor #E8F5E9
+        LineColor #2E7D32
+    }
+    .darkgreen {
+        BackgroundColor #C8E6C9
+        LineColor #1B5E20
+    }
+}
+</style>
+
+* Карта стейкхолдеров
+
+++ Высокое влияние\n<b>High Power</b> <<green>>
++++ Плотно работать\n<b>High Interest</b> <<darkgreen>>
+++++ Digital Commerce\nбизнес-заказчик
+++++ Order Management\nвладелец процесса
+++++ Core IT Team
+
++++ Держать удовлетворёнными\n<b>Low Interest</b> <<darkgreen>>
+++++ CIO / CTO\nвысшее ИТ-руководство
+++++ Information security
+++++ Infrastructure Team
+
+-- Низкое влияние\n<b>Low Power</b> <<green>>
+--- Информировать\n<b>High Interest</b> <<darkgreen>>
+---- Support Team
+---- Analytics Team
+---- Integrations Team
+---- Смежные ИТ-команды
+---- Клиенты
+
+--- Минимальный мониторинг\n<b>Low Interest</b> <<darkgreen>>
+---- Внешние партнеры
+@endmindmap
